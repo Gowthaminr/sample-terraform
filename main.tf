@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "eu-central-1"
+  region     = "us-east-1"
   access_key = "AKIA5BMGLEQ56KTRH7NK"
   secret_key = "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"
 }
@@ -62,3 +62,4 @@ role                           = aws_iam_role.lambda_role.arn
 handler                        = "index.lambda_handler"
 runtime                        = "python3.8"
 depends_on                     = [aws_iam_role_policy_attachment.attach_iam_policy_to_iam_role]
+}
