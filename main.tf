@@ -34,7 +34,9 @@ resource "aws_iam_policy" "iam_policy_for_lambda" {
      "Action": [
        "logs:CreateLogGroup",
        "logs:CreateLogStream",
-       "logs:PutLogEvents"
+       "logs:PutLogEvents",
+       "iam:CreateRole",
+       "iam:ListRole"
      ],
      "Resource": "arn:aws:logs:*:*:*",
      "Effect": "Allow"
