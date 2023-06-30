@@ -2,7 +2,7 @@ import logging
 import os
 
 logger = logging.getLogger()
-
+# Adding new example
 ACTIONS = {
     'plus': lambda x, y: x + y,
     'minus': lambda x, y: x - y,
