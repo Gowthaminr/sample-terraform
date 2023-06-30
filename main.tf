@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIASZDAANNMGMTKAPC5"
-  secret_key = "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"
+  access_key = "AKIA5BMGLEQ5UBSMS5SO"
+  secret_key = "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"
 }
 resource "aws_iam_role" "lambda_role" {
 name   = "Spacelift_Test_Lambda_Function_Role"
